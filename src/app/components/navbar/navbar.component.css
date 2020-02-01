@@ -1,6 +1,8 @@
 .main {
   background-color: whitesmoke;
-  position: relative;
+  position: sticky;
+  top: 0px;
+  left: 0px;
 }
 .dog a {
   text-decoration: none;
