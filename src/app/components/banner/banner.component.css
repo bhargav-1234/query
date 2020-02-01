@@ -1,0 +1,17 @@
+.mainass h1 {
+  text-align: center;
+  color: #0e2d53;
+  font-size: 60px;
+}
+.mainass img {
+  margin-top: 40px;
+  width: 40%;
+  height: 1012px;
+  width: 400px;
+}
+.mainass p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0e2d53;
+  text-align: center;
+}
