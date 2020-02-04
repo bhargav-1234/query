@@ -1,8 +1,9 @@
-.main {
+.ma {
   background-color: whitesmoke;
-  position: sticky;
+  position: fixed;
   top: 0px;
   left: 0px;
+  width: 100%;
 }
 .dog a {
   text-decoration: none;
