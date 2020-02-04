@@ -22,7 +22,6 @@ import { ServisesComponent } from "./components/servises/servises.component";
 import { ContactsComponent } from "./components/contacts/contacts.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { CustomerComponent } from "./components/customer/customer.component";
-import { PetsComponent } from './components/pets/pets.component';
 
 // import { MdbCarouselModule } from  "@angular/core"
 // For MDB Angular Pro
@@ -43,8 +42,7 @@ import { PetsComponent } from './components/pets/pets.component';
     ServisesComponent,
     ContactsComponent,
     FooterComponent,
-    CustomerComponent,
-    PetsComponent
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
