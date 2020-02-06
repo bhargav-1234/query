@@ -1,14 +1,14 @@
 section {
-  background-color: whitesmoke;
+  background-color: rgb(220, 245, 220);
 }
 
 .card {
   height: auto;
   max-width: 450px;
   padding: 0px;
-  margin: 15px;
-  background-color: white;
-  box-shadow: 0px 5px 5px 5px rgba(200, 200, 200, 0.5);
+  margin: 20px;
+  background-color: rgb(220, 245, 220);
+  box-shadow: 0px 5px 5px 5px rgba(199, 235, 204, 0.5);
 }
 
 .new-img {
