@@ -22,6 +22,7 @@ import { ServisesComponent } from "./components/servises/servises.component";
 import { ContactsComponent } from "./components/contacts/contacts.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { CustomerComponent } from "./components/customer/customer.component";
+import { TrainerService } from "./components/trainers/trainer.service";
 
 // import { MdbCarouselModule } from  "@angular/core"
 // For MDB Angular Pro
@@ -52,7 +53,7 @@ import { CustomerComponent } from "./components/customer/customer.component";
     MaterialModule,
     MDBBootstrapModule
   ],
-  providers: [],
+  providers: [TrainerService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
