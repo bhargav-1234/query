@@ -5,7 +5,7 @@ section {
 .card {
   height: auto;
   max-width: 450px;
-  padding: 0;
+  padding: 0px;
   margin: 15px;
   background-color: white;
   box-shadow: 0px 5px 5px 5px rgba(200, 200, 200, 0.5);
