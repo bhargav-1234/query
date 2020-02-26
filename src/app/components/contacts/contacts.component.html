@@ -1,4 +1,4 @@
-<section Align="center">
+<!-- <section Align="center">
   <h2>contacts</h2>
   <form #form="ngForm" (ngSubmit)="onSubmit(form)">
     <input
@@ -39,10 +39,103 @@
       Email Id is required
     </div>
     <br />
+
     <br />
 
     <button type="submit" mat-button [disabled]="!form.valid">
       Submit
     </button>
   </form>
-</section>
+</section> -->
+
+<div class="designation-form">
+  <div>
+    <form #form="ngForm">
+      <div fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+        <div fxFlex="45" fxFlex.sm="90" fxFlex.xs="90">
+          <mat-form-field appearance="outline">
+            <mat-label>Brand</mat-label>
+            <input
+              matInput
+              placeholder="Brand"
+              type="text"
+              name="brand"
+              required
+              [(ngModel)]="designation.brand"
+              #DesignationBrand="ngModel"
+            />
+          </mat-form-field>
+        </div>
+        <div fxFlex="45" fxFlex.sm="90" fxFlex.xs="90">
+          <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input
+              matInput
+              placeholder="Name"
+              type="text"
+              name="name"
+              required
+              [(ngModel)]="designation.name"
+              #DesignationName="ngModel"
+            />
+          </mat-form-field>
+        </div>
+        <div fxFlex="45" fxFlex.sm="90" fxFlex.xs="90">
+          <mat-form-field appearance="outline">
+            <mat-label>JobLevel</mat-label>
+            <input
+              matInput
+              placeholder="JobLevel"
+              type="text"
+              name="jobLevel"
+              required
+              [(ngModel)]="designation.jobLevel"
+              #Designation_jobLevel="ngModel"
+            />
+          </mat-form-field>
+        </div>
+        <div fxFlex="45" fxFlex.sm="90" fxFlex.xs="90">
+          <mat-form-field appearance="outline">
+            <mat-label>Summary</mat-label>
+            <input
+              matInput
+              placeholder="Summary"
+              type="text"
+              name="Summary"
+              required
+              [(ngModel)]="designation.summary"
+              #DesignationSummray="ngModel"
+            />
+          </mat-form-field>
+        </div>
+        <div fxFlex="45" fxFlex.sm="90" fxFlex.xs="90">
+          <mat-form-field appearance="outline">
+            <mat-label>Parent</mat-label>
+            <input
+              matInput
+              placeholder="Parent"
+              type="text"
+              name="Parent"
+              required
+              [(ngModel)]="designation.Parent"
+              #DesignationParent="ngModel"
+            />
+          </mat-form-field>
+        </div>
+        <div fxFlex="45"></div>
+        <div fxFlex="90" fxFlex.sm="90" fxFlex.xs="90">
+          <div Align="center">
+            <button
+              mat-raised-button
+              color="accent"
+              type="submit"
+              (click)="submit()"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

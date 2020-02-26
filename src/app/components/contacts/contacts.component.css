@@ -1,4 +1,8 @@
-.error {
+/* .error {
   color: red;
   font-size: small;
+} */
+.designation-form {
+  margin-top: 80px;
+  overflow-x: hidden;
 }
