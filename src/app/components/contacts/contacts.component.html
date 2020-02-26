@@ -130,6 +130,7 @@
               color="accent"
               type="submit"
               (click)="submit()"
+              [disabled]="!form.valid"
             >
               Save
             </button>
